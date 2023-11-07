@@ -1,0 +1,19 @@
+Bifrost 2001
+
+1 kusd to 2000 polkadotXcm.limitedReserveTransfer 
+    dest: V3 parents 1 X1 Parachain 2000
+    ben: V3 parents 1 X1 AccountId32 0xaee65bf22cdf1f98c91b6c176854d8072f1328e027d2e84d23607b517b1b9429 network null
+    assets: V3 Concrete parents 1 X2 { Parachain 2000 GeneralKey 2 0x0081000000000000000000000000000000000000000000000000000000000000 } Fungible 1000000000000
+    fee: 0
+    weight: unlimited
+
+0.05 usdt to 1000 statemine xcmInterface.transferStatemineAsset
+    amount: 50000
+    assetId: 1984
+
+Karura 2000
+
+.01 lksm to heiko 2085 using xTokens.transfer
+    currency_id: Token: "LKSM"
+    amount: 10000000000
+    dest: V3 interior X2 { parachain: 2085, AccountId32: id 10000000000 }
